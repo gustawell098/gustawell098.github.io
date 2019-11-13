@@ -1,0 +1,113 @@
+@font-face {
+    font-family: Roboto-Condensed;
+    src: url(/fonts/Roboto-Condensed.ttf);
+    
+}
+
+@font-face {
+    font-family: Roboto-Black;
+    src: url(/fonts/Roboto-Black.ttf);
+    
+}
+html, body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font-family: Roboto-Condensed;
+    margin: 0;
+    padding: 0;
+}
+#topo {
+    background-color: #0e81ed;
+    margin-top: -10px;
+    height: 150px;
+    width: 100%;
+    clip-path: ellipse(60% 60% at 50% 0%);
+}
+.container{
+    display: flex;
+    width: 90%;
+    height: 200px;
+    margin-left: 5%;
+    margin-right: 0%;
+    justify-content: center;
+    margin-top: 2%;
+    flex-flow: row wrap;
+    flex: 1 0 auto;
+  
+}
+
+.descricao{
+    margin-top: 132px;
+    background-color: rgb(236, 236, 236);
+    border-radius: 0px 0px 9px 9px;
+    text-align: center;
+    color: #0e81ed;
+    font-size: 10pt;
+    height: 18px;
+    width: 150px;
+    padding: 5px 0px;
+    flex-wrap: wrap;
+}
+
+.funcao{
+     display: flex;
+     width: 150px;
+     height: 160px;
+     border: 1px rgb(241, 241, 241) solid;
+     border-radius: 10px;
+     transition: 0.4s;
+     margin: 8px;
+ 
+}
+
+.funcao:hover{
+    box-shadow: 0 15px 15px 0 rgba(0, 0, 0, 0.1);
+    border: 1px #0e81ed solid;
+}
+
+.icone{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    margin-top: 25px;
+    margin-left: 43px;
+    margin-right: 35px;
+}
+
+h2{
+    margin-bottom: 5px;
+    margin-top: -30px;
+    color: #0e81ed;
+    text-align: center;
+}
+
+h2::after{
+    content: '';
+    display: block;
+    width: 12%;
+    height: 4px;
+    background-color: #0e81ed;
+    margin: 6px auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.cabecalho{
+padding: 20px;
+}
+
+footer {
+    background-color: rgb(241, 241, 241);
+    text-align: center;
+    color: #5f5f5f;
+    font-size: 10pt;
+}
+
+.proarte{
+    position: absolute;
+    display: flex;
+    width: 10%;
+}
